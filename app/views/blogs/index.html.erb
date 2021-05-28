@@ -1,0 +1,16 @@
+<h1>ツイート一覧</h1>
+<table>
+<%= @blogs.each do |blog| %>
+  <tr>
+    <td><%= blog.content %></td>
+    <td><%= link_to '確認する', blog_path(post.id) %></td>
+  </tr>
+
+<% end %>
+</table>
+
+<br>
+<button class="btn btn-primary" type="submit">Button</button>
+
+<br>
+  <%= link_to 'ツイートする', new_blog_path %>
