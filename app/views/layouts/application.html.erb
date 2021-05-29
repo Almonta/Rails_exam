@@ -4,18 +4,17 @@
     <title>Tsubuyaitter</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
   </head>
 
   <body>
-    <header>
-      <p>Tsubuyaitter</p>
-    </header>
     <%= yield %>
     <footer>
-      <p>Tsubuyaitter</p>
+      <div class="icon">
+        <i class="fab fa-twitter"> Tsubuyaitter</i>
+      </div>
     </footer>
   </body>
 </html>

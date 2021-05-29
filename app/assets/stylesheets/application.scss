@@ -15,24 +15,25 @@
  */
 
 
-header {
-  background-color: #00bfff;
-  height: 50px
-}
-
-header p {
-  text-align: center;
-  color: #ffff  
-}
-
 
 footer {
   background-color: #00bfff;
   height: 50px
 }
 
-footer p {
+.icon {
   text-align: center;
-  color: #ffff
-//   font-size: 2rem;
+  padding: 12px
 }
+
+.fa-twitter {
+  color: #ffff
+}
+
+// h1{
+//   font-size: 100%;
+// }
+
+// h2{
+//   font-size: 100%;
+// }
