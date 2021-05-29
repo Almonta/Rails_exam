@@ -2,7 +2,6 @@ class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
   def index
     @posts = Post.all
-    content1 = @posts[0].content
   end
   def new
     @post = Post.new
